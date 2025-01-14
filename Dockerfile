@@ -1,6 +1,6 @@
 FROM node:20
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update && apt-get install -y \
 	libasound2 \
 	libgbm1 \
 	libgtk-3-0 \
